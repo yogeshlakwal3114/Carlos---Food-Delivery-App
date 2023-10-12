@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
-const mongoURI = 'mongodb+srv://Carlos:yogeshlakwal@cluster0.3usjpgn.mongodb.net/Carlos?retryWrites=true&w=majority';
+const mongoURI = 'mongoURL';
 
 // const mongoDB = async() => {
 //       await mongoose.connect(mongoURI, {useNewUrlParser: true}, async(err,res)=>{
